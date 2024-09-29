@@ -17,6 +17,6 @@ array_gerado = np.arange(10)
 print("O array gerado ficou assim: ")
 print(array_gerado)
 
-array_gerado = np.arange(10).reshape(2,5)
+array_reshape = array_gerado.reshape(2,5)
 print("O array gerado com reshape ficou assim: ")
-print(array_gerado)
+print(array_reshape)
